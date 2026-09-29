@@ -1,0 +1,17 @@
+# Python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+miniconda3/
+
+# Ignore all data files and folders inside data/ (parquet, taxi_zones)
+data/*
+!data/.gitkeep
+
+# Spark checkpoints
+/tmp/spark_checkpoints/
